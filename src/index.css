@@ -1,13 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App.css */
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+  background-image: url("./assets/bg-image.jpg");
+  background-size: cover;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* You can apply the Poppins font to other elements as well */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
 }
