@@ -8,6 +8,8 @@ body {
   font-family: 'Poppins', sans-serif;
   background-image: url("./assets/bg-image.jpg");
   background-size: cover;
+  max-width: 1320px;
+  
   
 }
 

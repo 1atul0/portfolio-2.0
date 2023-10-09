@@ -1,27 +1,47 @@
 import React from "react";
 import image from "../assets/atul.jpg";
 import Socialicon from "./Socialicon";
+import Address from "./Address";
+
 
 function Info() {
   return (
-    <div className=" mx-6 md:mx-16  xl:mt-60 lg:flex space-y-8 xl:space-x-8 xl:space-y-0">
-      <div className="bg-white  xl:w-4/12  rounded-xl py-10 px-7 xl:py-0 xl:px-0">
+    <div className="bg-white rounded-xl py-10 px-2 md:px-16 xl:py-0 xl:px-10 xl:w-4/12" >
+      {/* first card  */}
+      <div className="">
         {/* for info card */}
-        <div className=" rounded-xl px-2 text-center  justify-center">
+        <div className=" rounded-xl px-1 mb-5  text-center  justify-center">
           <img
             className="xl:-mt-36 h-56 w-56 mb-5 rounded-xl mx-auto "
             src={image}
             alt=""
           />
-          <h1 className="box-border  text-xl font-semibold">Atul Kumar</h1>
-          <span className="font-medium mt-3 mb-2 inline-block  py-1 px-5 bg-slate-200 rounded-md border-r-2 ">Software Developer</span>
-          
-          <Socialicon/>
+          <h1 className="box-border  text-2xl font-semibold">Atul Kumar</h1>
+          <span className="font-medium mt-3 mb-2 inline-block  py-1 px-5 bg-slate-200 rounded-md border-r-2 ">
+            Software Developer
+          </span>
 
-            {/* add info contact like email phone etc  */}
+          <Socialicon />
+          <Address />
+          <button className="rounder-lg bg-red-500 py-3 px-5 mt-1 text-xl text-white rounded-full flex mx-auto  ">
+            <span className="">
+              <svg
+                className="fill-white mx-2 my-1"
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 512 512"
+              >
+                <path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+              </svg>
+            </span>
+            Download CV
+          </button>
+          {/* add info contact like email phone etc  */}
         </div>
       </div>
-      <div className="bg-pink-200 xl:w-8/12 h-96">2</div>
+
+      {/* second card detail card */}
+      
     </div>
   );
 }
