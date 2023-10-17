@@ -1,31 +1,40 @@
 import React from "react";
-import Navigation from "./Navigation";
+
 import Footer from "./Footer";
 
 function Project_Detail_Card() {
   return (
-    <section id="project-detail-card " className="text-slate-600">
-      <Navigation />
-      <div className="bg-white rounded-xl ">
-        <div className="px-14 pt-14  ">
-          <div className="flex space-x-7">
-            <h2 className="text-4xl text-black font-semibold ">Projects</h2>
+    <section >
+      
+      <div className="bg-white dark:bg-black rounded-xl dark:text-white ">
+        <div className="px-4 md:px-14 pt-14  ">
+          {/* title  */}
+          <div className="flex md:space-x-7 space-x-2">
+            <h2 className="text-4xl text-black dark:text-white font-semibold ">Projects</h2>
             <div className=" relative ">
-              <hr className="w-52 h-1 bg-red-500  top-1/2 absolute rounded-lg" />
+              <hr className="w-20 md:w-52 h-1 bg-red-500  top-1/2 absolute rounded-lg" />
             </div>
           </div>
-          <p className="my-5">
-            I'm Creative Director and UI/UX Designer from Sydney, Australia,
-            working in web development and print media. I enjoy turning complex
-            problems into simple, beautiful and intuitive designs.
-          </p>
-          <p>
-          My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
-          </p>
+
+          {/* projects  */}
+          <div className="my-5 space-y-7"  id="project"> 
+            {/* for project navigation  */}
+            <div className="flex justify-end space-x-7">
+              <span className="cursor-pointer hover:text-red-500 font-semibold">All</span>
+              <span className="cursor-pointer hover:text-red-500 font-semibold">Frontend</span>
+              <span className="cursor-pointer hover:text-red-500 font-semibold">Full-Stack</span>
+              <span className="cursor-pointer hover:text-red-500 font-semibold">Design</span>
+            </div>
+
+            {/* for project cards  */}
+            <div className="grid sm:grid-cols-2 bg-purple-100 sm:space-x-2">
+              <div className="bg-red-400">1</div>
+              <div className="bg-red-400">1</div>
+            </div>
+          </div>
+          
         </div>
-        <div className="px-14 py-5  ">
-            <h1 className="text-2xl text-black font-semibold">What I do!</h1>
-        </div>
+        
         <Footer/>
       </div>
     </section>

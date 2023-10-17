@@ -1,17 +1,17 @@
 import React from "react";
-import Navigation from "./Navigation";
+
 import Footer from "./Footer";
 
 function Work_Detail_Card() {
   return (
-    <section id="work-detail-card " className="text-slate-600">
-      <Navigation />
-      <div className="bg-white rounded-xl ">
-        <div className="px-14 pt-14  ">
-          <div className="flex space-x-7">
-            <h2 className="text-4xl text-black font-semibold ">Works</h2>
+    <section >
+      
+      <div className="bg-white dark:bg-black rounded-xl ">
+        <div className="px-4 md:px-14 pt-14  ">
+          <div className="flex md:space-x-7 space-x-2">
+            <h2 className="text-4xl text-black dark:text-white font-semibold ">Works</h2>
             <div className=" relative ">
-              <hr className="w-52 h-1 bg-red-500  top-1/2 absolute rounded-lg" />
+              <hr className="w-20 md:w-52 h-1 bg-red-500  top-1/2 absolute rounded-lg" />
             </div>
           </div>
           <p className="my-5">

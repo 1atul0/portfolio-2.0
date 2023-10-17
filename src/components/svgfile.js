@@ -1,7 +1,7 @@
 const svgs = [
   //about svg
   <svg
-    className="fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white "
+    className="fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white  "
     xmlns="http://www.w3.org/2000/svg"
     height="1em"
     viewBox="0 0 576 512"
@@ -11,7 +11,7 @@ const svgs = [
 
   //resume svg
   <svg
-    className="fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white"
+    className="fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white "
     xmlns="http://www.w3.org/2000/svg"
     height="1em"
     viewBox="0 0 384 512"
@@ -21,7 +21,7 @@ const svgs = [
 
   //project svg
   <svg
-    className="fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white "
+    className="fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white  "
     xmlns="http://www.w3.org/2000/svg"
     height="1em"
     viewBox="0 0 576 512"
@@ -31,7 +31,7 @@ const svgs = [
 
   //work svg
   <svg
-    className="fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white "
+    className="fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white  "
     xmlns="http://www.w3.org/2000/svg"
     height="1em"
     viewBox="0 0 512 512"

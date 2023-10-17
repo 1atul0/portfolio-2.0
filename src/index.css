@@ -6,12 +6,13 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url("./assets/bg-image.jpg");
+  /* background-image: url("./assets/bg-image.jpg"); */
   background-size: cover;
   max-width: 1320px;
   
   
 }
+
 
 /* You can apply the Poppins font to other elements as well */
 h1, h2, h3 {

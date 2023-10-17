@@ -3,27 +3,32 @@ import image from "../assets/atul.jpg";
 import Socialicon from "./Socialicon";
 import Address from "./Address";
 
-
 function Info() {
   return (
-    <div className="bg-white rounded-xl py-10 px-2 md:px-16 xl:py-0 xl:px-10 xl:w-4/12" >
+    
+    <div className="rounded-xl py-10 px-2  xl:py-0 xl:px-0 xl:w-4/12  xl:relative ">
       {/* first card  */}
-      <div className="">
+      <div className=" xl:sticky top-28 ">
         {/* for info card */}
-        <div className=" rounded-xl px-1 mb-5  text-center  justify-center">
+        <div className=" rounded-xl px-7 mb-5  text-center  justify-center dark:text-white bg-white dark:bg-black  p-5">
+          {/*I want to make this sticky like after scroll it stick till all below end */}
           <img
-            className="xl:-mt-36 h-56 w-56 mb-5 rounded-xl mx-auto "
+            className="xl:-mt-32 h-56 w-56 mb-5 rounded-xl mx-auto "
             src={image}
             alt=""
           />
+          {/* my name  */}
           <h1 className="box-border  text-2xl font-semibold">Atul Kumar</h1>
-          <span className="font-medium mt-3 mb-2 inline-block  py-1 px-5 bg-slate-200 rounded-md border-r-2 ">
+          {/* profession name  */}
+          <span className="font-medium mt-3 mb-2 inline-block  py-1 px-5 bg-slate-100 dark:bg-slate-800  rounded-md  ">
             Software Developer
           </span>
-
+          {/* space for Socialicon  */}
           <Socialicon />
+          {/* spacce for address and info  */}
           <Address />
-          <button className="rounder-lg bg-red-500 py-3 px-5 mt-1 text-xl text-white rounded-full flex mx-auto  ">
+          {/* download cv button  */}
+          <button className="rounder-lg bg-gradient-to-r from-red-400  to-pink-500 py-3 px-5 mt-1 text-xl text-white rounded-full flex mx-auto  ">
             <span className="">
               <svg
                 className="fill-white mx-2 my-1"
@@ -41,7 +46,6 @@ function Info() {
       </div>
 
       {/* second card detail card */}
-      
     </div>
   );
 }

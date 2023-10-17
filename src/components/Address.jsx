@@ -2,10 +2,10 @@ import React from "react";
 
 function Address() {
   return (
-    <div className="bg-gray-100 mb-30 py-5 px-1 rounded-xl space-y-2 my-5">
+    <div className="bg-gray-100 dark:bg-gray-900 mb-30 py-5 px-1 rounded-xl space-y-2 my-5">
       {/* icon   first address*/}
       <div className="flex space-x-2   border-b pb-2 border-slate-300 pt-2">
-        <div className="rounded-lg ml-2 bg-white shadow-lg w-10 h-10 p-2 my-auto">
+        <div className="rounded-lg ml-2 bg-white dark:bg-slate-600 shadow-lg w-10 h-10 p-2 my-auto">
           <svg
             className=" text-2xl fill-red-500 mx-auto"
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ function Address() {
 
       {/* icon  second address*/}
       <div className="flex space-x-2    border-b pb-2 border-slate-300">
-        <div className="rounded-lg ml-2 bg-white shadow-lg w-10 h-10 p-2 my-auto">
+        <div className="rounded-lg ml-2 bg-white dark:bg-slate-600 shadow-lg w-10 h-10 p-2 my-auto">
           <svg
             className="text-2xl mx-auto fill-green-400"
             xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ function Address() {
 
       {/* icon  third address*/}
       <div className="flex space-x-2   border-b pb-2 border-slate-300">
-        <div className="rounded-lg ml-2 bg-white shadow-lg w-10 h-10 p-2 my-auto">
+        <div className="rounded-lg ml-2 bg-white dark:bg-slate-600 shadow-lg w-10 h-10 p-2 my-auto">
           <svg
             className="text-2xl mx-auto fill-red-400"
             xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ function Address() {
 
       <div className="flex space-x-2   ">
         {/* icon fourth address */}
-        <div className="rounded-lg ml-2 bg-white shadow-lg w-10 h-10 p-2 my-auto">
+        <div className="rounded-lg ml-2 bg-white dark:bg-slate-600 shadow-lg w-10 h-10 p-2 my-auto">
           <svg
             className="text-2xl mx-auto fill-purple-400"
             xmlns="http://www.w3.org/2000/svg"
