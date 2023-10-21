@@ -2,11 +2,11 @@ import React from "react";
 
 import Footer from "./Footer";
 
-function Work_Detail_Card() {
+function WorkDetailCard() {
   return (
     <section >
       
-      <div className="bg-white dark:bg-black rounded-xl ">
+      <div className="bg-white dark:bg-black rounded-2xl ">
         <div className="px-4 md:px-14 pt-14  ">
           <div className="flex md:space-x-7 space-x-2">
             <h2 className="text-4xl text-black dark:text-white font-semibold ">Works</h2>
@@ -31,4 +31,4 @@ function Work_Detail_Card() {
     </section>
   );
 }
-export default Work_Detail_Card;
+export default WorkDetailCard;

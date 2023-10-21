@@ -1,9 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import Footer from "./Footer";
-import reactTextareaAutosize from "react-textarea-autosize";
 
-function Contact_Detail_Card() {
+function ContactDetailCard() {
   const [status, setStatus] = useState("Submit");//for handle submit button and form subbmit
   const [input1, setInput1] = useState({ height: "2px", click: false });
   const [input2, setInput2] = useState({ height: "2px", click: false });
@@ -49,7 +48,7 @@ function Contact_Detail_Card() {
 
   return (
     <section>
-      <div className="bg-white dark:bg-black rounded-xl ">
+      <div className="bg-white dark:bg-black rounded-2xl ">
         <div className="px-7 md:px-14 pt-14  ">
           <div className="flex md:space-x-7 space-x-2">
             <h2 className="text-4xl text-black dark:text-white font-semibold ">Contact</h2>
@@ -136,4 +135,4 @@ function Contact_Detail_Card() {
     </section>
   );
 }
-export default Contact_Detail_Card;
+export default ContactDetailCard;

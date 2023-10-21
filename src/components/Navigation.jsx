@@ -2,7 +2,7 @@
 import React from "react";
 import Navbutton from "./Navbutton";
 import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import {  useLocation } from "react-router-dom";
 
 
 function Navigation() {
@@ -14,7 +14,7 @@ function Navigation() {
   const svgs = [
     //about svg
     <svg
-      className={"fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white   "+(activeButton==0?"fill-white":"")}
+      className={"fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white   "+(activeButton===0?"fill-white":"")}
       xmlns="http://www.w3.org/2000/svg"
       height="1em"
       viewBox="0 0 576 512"
@@ -24,7 +24,7 @@ function Navigation() {
   
     //resume svg
     <svg
-      className={"fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white "+(activeButton==1?"fill-white":"")}
+      className={"fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white "+(activeButton===1?"fill-white":"")}
       xmlns="http://www.w3.org/2000/svg"
       height="1em"
       viewBox="0 0 384 512"
@@ -34,7 +34,7 @@ function Navigation() {
   
     //project svg
     <svg
-      className={"fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white "+(activeButton==2?"fill-white":"")}
+      className={"fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white "+(activeButton===2?"fill-white":"")}
       xmlns="http://www.w3.org/2000/svg"
       height="1em"
       viewBox="0 0 576 512"
@@ -44,7 +44,7 @@ function Navigation() {
   
     //work svg
     <svg
-      className={"fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white "+(activeButton==3?"fill-white":"")}
+      className={"fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white "+(activeButton===3?"fill-white":"")}
       xmlns="http://www.w3.org/2000/svg"
       height="1em"
       viewBox="0 0 512 512"
@@ -53,7 +53,7 @@ function Navigation() {
     </svg>,
     //contact svg
     <svg
-      className={"fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white "+(activeButton==4?"fill-white":"")}
+      className={"fill-gray-500 mx-auto w-6 h-6   group-hover:fill-white "+(activeButton===4?"fill-white":"")}
       xmlns="http://www.w3.org/2000/svg"
       height="1em"
       viewBox="0 0 512 512"
@@ -83,7 +83,7 @@ function Navigation() {
   return (
     <div className="">
       <nav className=" hidden xl:flex  justify-end mb-6">
-        <ul className="flex  space-x-4 bg-white dark:bg-black rounded-xl max-w-[65%] p-7 ">
+        <ul className="flex  space-x-4 bg-white dark:bg-black rounded-2xl max-w-[68%] p-7 ">
           {infos.map((info, index) => (
             <Navbutton
               key={index}

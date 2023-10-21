@@ -1,10 +1,10 @@
 import React from "react";
 import Footer from "./Footer";
 
-function Resume_Detail_Card() {
+function ResumeDetailCard() {
   return (
     <section>
-      <div className="bg-white dark:bg-black dark:text-white rounded-xl ">
+      <div className="bg-white dark:bg-black dark:text-white rounded-2xl ">
         <div className="px-4 md:px-14 pt-6 lg:pt-14  space-y-4">
           {/* route title  */}
 
@@ -208,4 +208,4 @@ function Resume_Detail_Card() {
     </section>
   );
 }
-export default Resume_Detail_Card;
+export default ResumeDetailCard;

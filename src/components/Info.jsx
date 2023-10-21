@@ -10,10 +10,10 @@ function Info() {
       {/* first card  */}
       <div className=" xl:sticky top-28 ">
         {/* for info card */}
-        <div className=" rounded-xl px-7 mb-5  text-center  justify-center dark:text-white bg-white dark:bg-black  p-5">
+        <div className=" rounded-2xl px-7 mb-5  text-center  justify-center dark:text-white bg-white dark:bg-black  p-5">
           {/*I want to make this sticky like after scroll it stick till all below end */}
           <img
-            className="xl:-mt-32 h-56 w-56 mb-5 rounded-xl mx-auto "
+            className="xl:-mt-32 h-56 w-56 mb-5 rounded-2xl mx-auto "
             src={image}
             alt=""
           />

@@ -2,7 +2,7 @@ import React from "react";
 import Dropdown from "./Dropdown";
 import { useState, useEffect } from "react";
 function Header() {
-  const [icon, setIcon] = useState(false);
+  // const [icon, setIcon] = useState(false);
 
   // this solution work except refresh
   // const toggleDarkMode = () => {
@@ -20,24 +20,10 @@ function Header() {
   //   }
   // }, []);
 
-  // const [isDarkMode, setIsDarkMode] = useState(true);
-  // const toggleDarkMode = () => {
-  //   setIsDarkMode(!isDarkMode);
-  //   setIcon(isDarkMode);
-  //   // Save user's theme preference in local storage or cookies
-  //   localStorage.setItem("theme", isDarkMode ? "light" : "dark");
-  // };
-  // useEffect(() => {
-  //   const savedTheme = localStorage.getItem("theme");
-  //   if (savedTheme === "dark") {
-  //     setIsDarkMode(true);
-  //     document.documentElement.classList.add("dark");
-  //   }
-  // }, []);
 
 
 
-  // this solution work after refresh page 
+  // this solution work also on  refresh page 
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
@@ -63,7 +49,7 @@ function Header() {
   
 
   return (
-    <div class="mx-11 mt-5 md:mt-16 mb-10 md:mb-16 lg:mx-32 lg:my-20 flex justify-end space-x-3 ">
+    <div class="mx-11   mb-10 md:mb-16 lg:mx-32  flex justify-end space-x-3 ">
       {/* <!-- for dark mode button  --> */}
       <div
         class="w-10 h-10 bg-slate-200 hover:bg-red-400 shadow-lg rounded-full cursor-pointer "
