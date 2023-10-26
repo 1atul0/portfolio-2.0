@@ -49,7 +49,7 @@ function Header() {
   
 
   return (
-    <div class="mx-11   mb-10 md:mb-16 lg:mx-32  flex justify-end space-x-3 ">
+    <div class="mx-11   mb-2 md:mb-16 lg:mx-32  flex justify-end space-x-3 ">
       {/* <!-- for dark mode button  --> */}
       <div
         class="w-10 h-10 bg-slate-200 hover:bg-red-400 shadow-lg rounded-full cursor-pointer "

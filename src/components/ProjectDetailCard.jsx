@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import ProjectCard from "./ProjectCard";
 import Footer from "./Footer";
-import projectDetail from "./projectDetails.js";
+
+import projectDetails from "./projectDetails.js";
 
 function ProjectDetailCard() {
   // Initialize the projectNav state from localStorage or set it to the default value (0)
@@ -103,18 +104,54 @@ function ProjectDetailCard() {
             </div>
 
             {/* for project cards  */}
-            <div className="grid sm:grid-cols-2 ">
-              <ProjectCard 
-              img={projectDetail[0].image}
-              tag={projectDetail[0].tag}
-              title={projectDetail[0].title}
-              description={projectDetail[0].description}
-              features={projectDetail[0].features}
-              />
-              <ProjectCard/>
-              <ProjectCard/>
-              <ProjectCard/>
+            {/* for only all , display all projects  */}
+            {
+              projectNav===0 && <div className="grid sm:grid-cols-2 ">
+              {
+                projectDetails.map((projectDetail,index)=>(
+                  (<ProjectCard 
+                    index={index}
+                    img={projectDetail.image}
+                    tag={projectDetail.tag}
+                    title={projectDetail.title}
+                    description={projectDetail.description}
+                    features={projectDetail.features}
+                    source={projectDetail.source}
+                    link={projectDetail.link}
+                    linkStatus={projectDetail.linkStatus}
+                    frontend={projectDetail.frontend}
+                    backend={projectDetail.backend}
+                    />)
+                ))
+              }
             </div>
+            }
+
+
+            {/* for specific tag only  */}
+            {
+              <div className="grid sm:grid-cols-2 ">
+              {
+                projectDetails.map((projectDetail,index)=>(
+
+                  ( projectNav===projectDetail.id &&
+                  <ProjectCard 
+                    index={index}
+                    img={projectDetail.image}
+                    tag={projectDetail.tag}
+                    title={projectDetail.title}
+                    description={projectDetail.description}
+                    features={projectDetail.features}
+                    source={projectDetail.source}
+                    link={projectDetail.link}
+                    linkStatus={projectDetail.linkStatus}
+                    frontend={projectDetail.frontend}
+                    backend={projectDetail.backend}
+                    />)
+                ))
+              }
+            </div>
+            }
           </div>
         </div>
 

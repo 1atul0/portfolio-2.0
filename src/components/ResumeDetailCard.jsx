@@ -33,39 +33,39 @@ function ResumeDetailCard() {
                 Education
               </span>
             </div>
-            <div className=" grid grid-cols-1 md:grid-cols-2 text-gray-500 text-sm ">
+            <div className="dark:text-gray-400 grid grid-cols-1 md:grid-cols-2 text-gray-500 text-sm ">
               {/* first education  */}
-              <div className="bg-pink-100 rounded-lg mr-4 my-4 p-3  space-y-1">
+              <div className="bg-pink-100 dark:bg-slate-800 rounded-lg mr-4 my-4 p-3  space-y-1">
                 <p className="mb-2">2020-2024</p>
-                <p className="text-black text-lg font-normal">
+                <p className="text-black dark:text-white text-lg font-normal">
                   B-Tech in Computer Science
                 </p>
                 <p>CGPA : 8.36/10</p>
-                <p className="text-gray-900 text-base">
+                <p className="text-black dark:text-white text-base">
                   Darbhanga College Of Engineering Darbhanga (Bihar)
                 </p>
                 <p>Bihar Engineering University Patna</p>
               </div>
 
               {/* second education  */}
-              <div className="bg-purple-100 rounded-lg mr-4 my-4 p-3 space-y-1 ">
+              <div className="bg-purple-100 dark:bg-slate-800 rounded-lg mr-4 my-4 p-3 space-y-1 ">
                 <p className="mb-2">2018-2020</p>
-                <p className="text-black text-lg font-normal">
+                <p className="text-black dark:text-white text-lg font-normal">
                   Intermediate In Science
                 </p>
                 <p>Percentage : 84%</p>
-                <p className="text-gray-900 text-base">
+                <p className="text-gray-900 dark:text-white text-base">
                   Sachidananda Sinha College Aurangabad(Bihar)
                 </p>
                 <p>Bihar School Examination Board</p>
               </div>
 
               {/* third education  */}
-              <div className="bg-yellow-100 rounded-lg mr-4 my-4 p-3 space-y-1 ">
+              <div className="bg-yellow-100 dark:bg-slate-800 rounded-lg mr-4 my-4 p-3 space-y-1 ">
                 <p className="mb-2">2017-2018</p>
-                <p className="text-black text-lg font-normal">Matriculation </p>
+                <p className="text-black dark:text-white text-lg font-normal">Matriculation </p>
                 <p>Percentage : 84%</p>
-                <p className="text-gray-700 text-base">
+                <p className="text-gray-700 dark:text-white text-base">
                   Ashoka Inter School Daudnagar (Bihar)
                 </p>
                 <p>Bihar School Examination Board</p>
@@ -90,111 +90,111 @@ function ResumeDetailCard() {
             </div>
             <div className=" grid grid-cols-1 md:grid-cols-2 text-gray-500 text-md ">
               {/* first education  */}
-              <div className="bg-red-100 rounded-lg mr-4 my-4 p-3  space-y-1 ">
-                <p className="text-black text-lg font-semibold border-b-2 border-blue-400 mb-5">
+              <div className="bg-red-100 dark:text-white dark:bg-slate-800 rounded-lg mr-4 my-4 p-3  space-y-1 ">
+                <p className="text-black dark:text-white text-lg font-semibold border-b-2 border-blue-400 mb-5">
                   Development
                 </p>
                 <div className="flex flex-wrap">
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     React.js
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Express.js
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     MongoDB
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Node.js
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     JavaScript
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Tailwind Css
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">Git</span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">Git</span>
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Github
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Firebase
                   </span>
                 </div>
               </div>
 
               {/* second skill  */}
-              <div className="bg-orange-100 rounded-lg mr-4 my-4 p-3  space-y-1 ">
-                <p className="text-black text-lg font-semibold border-b-2 border-blue-400 mb-5">
+              <div className="bg-orange-100 dark:text-white dark:bg-slate-800 rounded-lg mr-4 my-4 p-3  space-y-1 ">
+                <p className="text-black dark:text-white text-lg font-semibold border-b-2 border-blue-400 mb-5">
                   Programming
                 </p>
                 <div className="flex flex-wrap">
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">C</span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">C++</span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">C</span>
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">C++</span>
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Data Structure & Algorithm using C++
                   </span>
                 </div>
               </div>
 
               {/* third skill  */}
-              <div className="bg-cyan-100 rounded-lg mr-4 my-4 p-3  space-y-1 ">
-                <p className="text-black text-lg font-semibold border-b-2 border-blue-400 mb-5">
+              <div className="bg-cyan-100 dark:text-white dark:bg-slate-800 rounded-lg mr-4 my-4 p-3  space-y-1 ">
+                <p className="text-black dark:text-white text-lg font-semibold border-b-2 border-blue-400 mb-5">
                   CourseWork
                 </p>
                 <div className="flex flex-wrap">
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Software Engineering
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Database Management System
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Operating System
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Theory Of Computation
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Compiler Design
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Machine Learning
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Computer Network
                   </span>
                 </div>
               </div>
 
               {/* forth skill  */}
-              <div className="bg-gray-200 rounded-lg mr-4 my-4 p-3  space-y-1 ">
-                <p className="text-black text-lg font-semibold border-b-2 border-blue-400 mb-5">
+              <div className="bg-gray-200 dark:text-white dark:bg-slate-800 rounded-lg mr-4 my-4 p-3  space-y-1 ">
+                <p className="text-black dark:text-white text-lg font-semibold border-b-2 border-blue-400 mb-5">
                   Others
                 </p>
                 <div className="flex flex-wrap">
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Figma
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                    Canva
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     VS Code
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Postman
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     MongoDB Atlas
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     SQL 
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Cisco Packet Tracer
                   </span>
-                  <span className="bg-white p-2 rounded-md mr-2 mb-2">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Web Design 
                   </span>
                 </div>

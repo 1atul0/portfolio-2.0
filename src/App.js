@@ -22,7 +22,7 @@ function App() {
               element={
                 <section id="about">
                   <Header />
-                  <div className="mx-3 md:mx-6   xl:mt-60 xl:flex space-y-8 xl:space-x-8 xl:space-y-0">
+                  <div className="mx-3 md:mx-6   xl:mt-52 xl:flex space-y-8 xl:space-x-8 xl:space-y-0">
                     {/* w=1/4 is reserver for info  */}
                     <Info />
 

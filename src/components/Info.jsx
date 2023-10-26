@@ -6,11 +6,11 @@ import Address from "./Address";
 function Info() {
   return (
     
-    <div className="rounded-xl py-10 px-2  xl:py-0 xl:px-0 xl:w-4/12  xl:relative ">
+    <div className="rounded-xl  sm:px-2   xl:px-0 xl:w-4/12  xl:relative ">
       {/* first card  */}
       <div className=" xl:sticky top-28 ">
         {/* for info card */}
-        <div className=" rounded-2xl px-7 mb-5  text-center  justify-center dark:text-white bg-white dark:bg-black  p-5">
+        <div className="py-10 xl:py-4 rounded-2xl px-7 mb-5  text-center  justify-center dark:text-white bg-white dark:bg-black  p-5">
           {/*I want to make this sticky like after scroll it stick till all below end */}
           <img
             className="xl:-mt-32 h-56 w-56 mb-5 rounded-2xl mx-auto "
@@ -28,7 +28,7 @@ function Info() {
           {/* spacce for address and info  */}
           <Address />
           {/* download cv button  */}
-          <button className="rounder-lg bg-gradient-to-r from-red-400  to-pink-500 py-3 px-5 mt-1 text-xl text-white rounded-full flex mx-auto  ">
+          <button className="rounder-lg bg-gradient-to-r from-red-400  to-pink-500 py-3 px-5 my-4 text-xl text-white rounded-full flex mx-auto  ">
             <span className="">
               <svg
                 className="fill-white mx-2 my-1"
