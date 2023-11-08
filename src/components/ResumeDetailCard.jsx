@@ -4,7 +4,7 @@ import Footer from "./Footer";
 function ResumeDetailCard() {
   return (
     <section>
-      <div className="bg-white dark:bg-black dark:text-white rounded-2xl ">
+      <div className="bg-white dark:bg-black  rounded-2xl ">
         <div className="px-4 md:px-14 pt-6 lg:pt-14  space-y-4">
           {/* route title  */}
 
@@ -90,11 +90,11 @@ function ResumeDetailCard() {
             </div>
             <div className=" grid grid-cols-1 md:grid-cols-2 text-gray-500 text-md ">
               {/* first education  */}
-              <div className="bg-red-100 dark:text-white dark:bg-slate-800 rounded-lg mr-4 my-4 p-3  space-y-1 ">
+              <div className="bg-red-100 dark:text-[white] dark:bg-slate-800 rounded-lg mr-4 my-4 p-3  space-y-1 ">
                 <p className="text-black dark:text-white text-lg font-semibold border-b-2 border-blue-400 mb-5">
                   Development
                 </p>
-                <div className="flex flex-wrap">
+                <div className="flex flex-wrap dark:text-[#a6a6a6]">
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     React.js
                   </span>
@@ -128,7 +128,7 @@ function ResumeDetailCard() {
                 <p className="text-black dark:text-white text-lg font-semibold border-b-2 border-blue-400 mb-5">
                   Programming
                 </p>
-                <div className="flex flex-wrap">
+                <div className="flex flex-wrap dark:text-[#a6a6a6]">
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">C</span>
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">C++</span>
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
@@ -142,7 +142,7 @@ function ResumeDetailCard() {
                 <p className="text-black dark:text-white text-lg font-semibold border-b-2 border-blue-400 mb-5">
                   CourseWork
                 </p>
-                <div className="flex flex-wrap">
+                <div className="flex flex-wrap dark:text-[#a6a6a6]">
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Software Engineering
                   </span>
@@ -172,8 +172,8 @@ function ResumeDetailCard() {
                 <p className="text-black dark:text-white text-lg font-semibold border-b-2 border-blue-400 mb-5">
                   Others
                 </p>
-                <div className="flex flex-wrap">
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
+                <div className="flex flex-wrap dark:text-[#a6a6a6]">
+                  <span className="bg-white dark:bg-black  p-2 rounded-md mr-2 mb-2">
                     Figma
                   </span>
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">

@@ -83,7 +83,7 @@ function Navigation() {
   return (
     <div className="">
       <nav className=" hidden xl:flex  justify-end mb-6">
-        <ul className="flex  space-x-4 bg-white dark:bg-black rounded-2xl max-w-[68%] p-7 ">
+        <ul className="flex  space-x-4 bg-white dark:bg-black  shadow-sm dark:text-[#a6a6a6] rounded-2xl max-w-[68%] p-7 ">
           {infos.map((info, index) => (
             <Navbutton
               key={index}

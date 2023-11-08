@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        light: "url('/src/assets/bg-image.jpg')",
-        dark: "url('/src/assets/darkbg.jpg')",
+        light: "url('/src/assets/5625780.jpg')",
+        dark: "url('/src/assets/4882066.jpg')",
       },
     },
   },

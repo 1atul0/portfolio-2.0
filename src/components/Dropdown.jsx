@@ -118,7 +118,7 @@ function Dropdown() {
         <div
           id="dropdown"
           className={
-            "absolute right-0 md:right-5   mt-10  w-11/12  bg-white dark:bg-dark border rounded-lg shadow-lg mx-5 transition-transform  duration-500  text-md font-semibold "
+            "absolute right-0 md:right-5   mt-10  w-11/12  bg-white dark:bg-slate-800 border rounded-lg shadow-lg mx-5 transition-transform  duration-500  text-md font-semibold "
           }
         >
           <ul className="text-gray-400 space-y-2 my-2">

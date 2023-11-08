@@ -10,7 +10,7 @@ function Info() {
       {/* first card  */}
       <div className=" xl:sticky top-28 ">
         {/* for info card */}
-        <div className="py-10 xl:py-4 rounded-2xl px-7 mb-5  text-center  justify-center dark:text-white bg-white dark:bg-black  p-5">
+        <div className="py-10 xl:py-4 rounded-2xl px-7 mb-5  text-center  justify-center  shadow-sm dark:text-white bg-white dark:bg-black  p-5">
           {/*I want to make this sticky like after scroll it stick till all below end */}
           <img
             className="xl:-mt-32 h-56 w-56 mb-5 rounded-2xl mx-auto "
@@ -20,7 +20,7 @@ function Info() {
           {/* my name  */}
           <h1 className="box-border  text-2xl font-semibold">Atul Kumar</h1>
           {/* profession name  */}
-          <span className="font-medium mt-3 mb-2 inline-block  py-1 px-5 bg-slate-100 dark:bg-slate-800  rounded-md  ">
+          <span className="font-medium mt-3 mb-2 inline-block  py-1 px-5 bg-gray-100 dark:bg-slate-800 text-[#a6a6a6]  rounded-md  ">
             Software Developer
           </span>
           {/* space for Socialicon  */}

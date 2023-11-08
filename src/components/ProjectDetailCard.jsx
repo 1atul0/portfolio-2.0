@@ -39,7 +39,7 @@ function ProjectDetailCard() {
   return (
     <section>
       {/* for outer box which has whtie bg  */}
-      <div className="bg-white dark:bg-black rounded-2xl dark:text-white ">
+      <div className="bg-white dark:bg-black rounded-2xl dark:text-[#a6a6a6] ">
         {/* added padding to outer div bg-white  */}
         <div className="px-4 md:px-14 pt-14  ">
           {/* title  */}

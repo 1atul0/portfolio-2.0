@@ -12,7 +12,7 @@ import ResumeDetailCard from "./components/ResumeDetailCard";
 
 function App() {
   return (
-    <div className="bg-light dark:bg-dark bg-cover ">
+    <div className="bg-light dark:bg-dark bg-cover  ">
       <div className="mx-auto  max-w-7xl pt-12 xl:pt-20 pb-10">
         <BrowserRouter>
           <Routes>
@@ -29,7 +29,7 @@ function App() {
                     <div className="xl:w-8/12    space-y-2">
                       <section
                         id="about-detail-card "
-                        className="text-slate-600"
+                        className="text-[#a6a6a6]"
                       >
                         <Navigation />
                         <AboutDetailCard />
@@ -73,7 +73,7 @@ function App() {
                     <div className="xl:w-8/12   space-y-2">
                       <section
                         id="about-detail-card "
-                        className="text-slate-600"
+                        className="text-[#a6a6a6]"
                       >
                         <Navigation />
                         <ContactDetailCard />
