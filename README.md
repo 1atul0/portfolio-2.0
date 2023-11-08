@@ -8,5 +8,5 @@ My motivation is to doing this project:-
 * Apply learning Tailwind CSS
 * Adding creativity
 
-  ### How portfolio look like
+### How portfolio look like
   
