@@ -9,4 +9,5 @@ My motivation is to doing this project:-
 * Adding creativity
 
 ### How portfolio look like
-![Atl text](portfolionew.png)
+
+![portfolionew](https://github.com/1atul0/portfolio-2.0/assets/82318645/0a271e52-6a95-48ed-906a-e5e75d49b226)
