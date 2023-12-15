@@ -7,7 +7,7 @@ function Socialicon() {
   return (
     <main className="space-x-3 mt-2">
       {/* facebook  */}
-      <a
+      {/* <a
         href="#"
         className="  rounded-lg bg-slate-200 inline-block hover:bg-blue-500"
       >
@@ -19,11 +19,11 @@ function Socialicon() {
         >
           <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
         </svg>
-      </a>
+      </a> */}
 
       {/* twitter  */}
       <a
-        href="#"
+        href="https://twitter.com/AtulKum78802355"
         className=" rounded-lg bg-slate-200 inline-block hover:bg-blue-500"
       >
         <svg
@@ -38,7 +38,7 @@ function Socialicon() {
 
       {/*github  */}
       <a
-        href="#"
+        href="https://github.com/1atul0"
         className=" rounded-lg bg-slate-200 inline-block hover:bg-blue-500"
       >
         <svg className="w-10 h-10 p-2.5 fill-black hover:fill-white"
@@ -52,7 +52,7 @@ function Socialicon() {
 
       {/* instagram */}
       <a
-        href="#"
+        href="https://www.instagram.com/atulkumar7890/"
         className=" rounded-lg bg-slate-200 inline-block hover:bg-blue-500"
       >
         <svg className="w-10 h-10 p-2.5 fill-red-500 hover:fill-white"
@@ -66,7 +66,7 @@ function Socialicon() {
 
       {/* Linkedin */}
       <a
-        href="#"
+        href="https://www.linkedin.com/in/atul-kumar-cse/"
         className=" rounded-lg bg-slate-200 inline-block hover:bg-blue-500"
       >
         <svg className="w-10 h-10 p-2.5 fill-blue-900 hover:fill-white"

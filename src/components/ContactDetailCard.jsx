@@ -50,7 +50,7 @@ function ContactDetailCard() {
     <section>
       <div className="bg-white dark:bg-black rounded-2xl ">
         <div className="px-7 md:px-14 pt-14  ">
-          <div className="flex md:space-x-7 space-x-2">
+          <div className="flex md:space-x-4 space-x-2">
             <h2 className="text-4xl text-black dark:text-white font-semibold ">Contact</h2>
             <div className=" relative ">
               <hr className="w-20 md:w-52 h-1 bg-red-500  top-1/2 absolute rounded-lg " />

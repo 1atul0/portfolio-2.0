@@ -17,8 +17,17 @@ function ProjectCard(props) {
     <section>
       <div
         onClick={handleClick}
-        // you must set a gap between where m-3 end else not work 
-        className={"dark:bg-slate-800 rounded-xl p-4 cursor-pointer space-y-4  group m-3 " + (props.index%2 === 0 ? "bg-purple-200" : "bg-lime-200")}
+        // you must set a gap between where m-3 end else not work
+        className={
+          "dark:bg-slate-800 rounded-xl p-4 cursor-pointer space-y-4  group m-3 " +
+          (props.index % 4 === 0 || props.index%4>2
+            ? props.index % 2 === 0
+              ? "bg-red-200"
+              : "bg-lime-200"
+            : props.index % 2 === 0
+            ? "bg-teal-200"
+            : "bg-cyan-200")
+        }
       >
         <div className="relative space-y-6">
           <div className="rounded-lg overflow-hidden ">

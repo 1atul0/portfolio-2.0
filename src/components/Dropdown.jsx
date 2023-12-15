@@ -74,7 +74,7 @@ function Dropdown() {
     { route: "/", name: "About", svgfile: svgs[0] },
     { route: "/resume", name: "Resume", svgfile: svgs[1] },
     { route: "/project", name: "Projects", svgfile: svgs[2] },
-    { route: "/work", name: "Works", svgfile: svgs[3] },
+    { route: "/work", name: "Activities", svgfile: svgs[3] },
     { route: "/contact", name: "Contact", svgfile: svgs[4] },
   ];
 

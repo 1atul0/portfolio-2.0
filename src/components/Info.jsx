@@ -28,7 +28,9 @@ function Info() {
           {/* spacce for address and info  */}
           <Address />
           {/* download cv button  */}
-          <button className="rounder-lg bg-gradient-to-r from-red-400  to-pink-500 py-3 px-5 my-4 text-xl text-white rounded-full flex mx-auto  ">
+          <a href="https://docs.google.com/document/d/1nzobWt6yBu3bWq1Aqj-dhbQPAhAF4t6Ys32QhT1tXQw/edit?usp=sharing" className=" bg-gradient-to-r from-red-400  to-pink-500 py-3 px-10 my-4 text-xl text-white rounded-full  flex mx-10">
+            
+            <div className="flex mx-auto">
             <span className="">
               <svg
                 className="fill-white mx-2 my-1"
@@ -40,7 +42,10 @@ function Info() {
               </svg>
             </span>
             Download CV
-          </button>
+            </div>
+            
+           
+          </a>
           {/* add info contact like email phone etc  */}
         </div>
       </div>

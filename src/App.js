@@ -7,7 +7,7 @@ import Navigation from "./components/Navigation";
 import AboutDetailCard from "./components/AboutDetailCard";
 import ContactDetailCard from "./components/ContactDetailCard";
 import ProjectDetailCard from "./components/ProjectDetailCard";
-import WorkDetailCard from "./components/WorkDetailCard";
+import WorkDetailCard from "./components/ActivitiesDetailCard";
 import ResumeDetailCard from "./components/ResumeDetailCard";
 
 function App() {
@@ -108,7 +108,7 @@ function App() {
             <Route
               path="/work"
               element={
-                <section id="work">
+                <section id="">
                   <Header />
                   <div className="mx-3 md:mx-6   xl:mt-60 xl:flex space-y-8 xl:space-x-8 xl:space-y-0">
                     {/* w=1/4 is reserver for info  */}

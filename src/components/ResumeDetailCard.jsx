@@ -8,7 +8,7 @@ function ResumeDetailCard() {
         <div className="px-4 md:px-14 pt-6 lg:pt-14  space-y-4">
           {/* route title  */}
 
-          <div className="flex md:space-x-7 space-x-2">
+          <div className="flex md:space-x-4 space-x-2">
             <h2 className="text-4xl text-black dark:text-white font-semibold ">Resume</h2>
             <div className=" relative ">
               {/* route line  */}
