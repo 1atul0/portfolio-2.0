@@ -14,7 +14,7 @@ function AboutDetailCard() {
             </div>
           </div>
           <p className="my-5 ">
-            Hi, I'm Atul Kumar, a 3rd year B-Tech student who's passionate about
+            Hi, I'm Atul Kumar, a  B-Tech graduate who's passionate about
             becoming a great software developer. My primary interests lie in
             competitive programming and development, and I've honed my skills in
             C++ through solving DSA and logic-based problems.
