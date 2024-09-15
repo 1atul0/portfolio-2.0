@@ -40,7 +40,7 @@ function ResumeDetailCard() {
                 <p className="text-black dark:text-white text-lg font-normal">
                   B-Tech in Computer Science
                 </p>
-                <p>CGPA : 8.36/10</p>
+                <p>CGPA : 8.53/10</p>
                 <p className="text-black dark:text-white text-base">
                   Darbhanga College Of Engineering Darbhanga (Bihar)
                 </p>
@@ -117,9 +117,7 @@ function ResumeDetailCard() {
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     Github
                   </span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Firebase
-                  </span>
+                  
                 </div>
               </div>
 

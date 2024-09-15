@@ -28,7 +28,7 @@ function Info() {
           {/* spacce for address and info  */}
           <Address />
           {/* download cv button  */}
-          <a href="https://docs.google.com/document/d/1nzobWt6yBu3bWq1Aqj-dhbQPAhAF4t6Ys32QhT1tXQw/edit?usp=sharing" className=" bg-gradient-to-r from-red-400  to-pink-500 py-3 px-10 my-4 text-xl text-white rounded-full  flex mx-10">
+          <a href="https://drive.google.com/file/d/1Qjb5Q3RgZ1-ibYHwV8214VXkD3SLzYxi/view?usp=drive_link" className=" bg-gradient-to-r from-red-400  to-pink-500 py-3 px-10 my-4 text-xl text-white rounded-full  flex mx-10">
             
             <div className="flex mx-auto">
             <span className="">

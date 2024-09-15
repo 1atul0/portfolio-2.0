@@ -82,7 +82,7 @@ function Address() {
         <div className="text-start">
           <span className="text-sm text-slate-500">Birthday</span>
           <a href="#">
-            <p>September 9, 2002</p>
+            <p>September 10, 2002</p>
           </a>
         </div>
         

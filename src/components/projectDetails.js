@@ -49,8 +49,8 @@ const projectDetails = [
     image: keeper,
     tag: "note-taking app, ReactJS",
     teamSize: "1",
-    linkStatus: "not hosted",
-    link: "#",
+    linkStatus: "live here",
+    link: "https://keeper101.vercel.app/",
     description:
       "This is the project I have made during learning Web Development from Udemy by Angela Yu (Web Development Bootcamp by Angela Yu). This is the website where you save your daily story and work list which can be save after web closed  if I connect to database.Your saved notes see here. I have created this with good Ui.This website is also user-friendly and handy to use. I have also used Material Ui in this project.",
     features: (
