@@ -155,7 +155,7 @@ function ProjectCard(props) {
                     Source :{" "}
                     <a
                       href={props.source}
-                      className="light:text-black font-semibold hover:text-blue-500"
+                      className="light:text-black font-semibold hover:text-blue-500 text-red-500"
                     >
                       github
                     </a>
@@ -182,7 +182,7 @@ function ProjectCard(props) {
                     Preview :{" "}
                     <a
                       href={props.link}
-                      className="light:text-black font-semibold hover:text-blue-500"
+                      className="light:text-black font-semibold hover:text-blue-500 text-red-500"
                     >
                       {props.linkStatus}
                     </a>

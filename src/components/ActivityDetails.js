@@ -17,13 +17,13 @@ const ActivityDetails=[
     {
         title:"Leetcode",
         link:"https://leetcode.com/1atul0/",
-        description:"solved 100+ question and achieved rank 1467 on Leetcode.",
+        description:"solved 200+ question and achieved rank 1467 on Leetcode.",
         image:leetcode
     },
     {
         title:"GeeksforGeeks",
-        link:"https://leetcode.com/1atul0/",
-        description:"solved 390+ questions geeksforgeeks.",
+        link:"https://www.geeksforgeeks.org/user/1atul0/",
+        description:"solved 400+ questions geeksforgeeks.",
         image:gfg
     },
     {

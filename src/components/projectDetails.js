@@ -12,8 +12,32 @@ import simon from "../assets/simon.png";
 import tindog from "../assets/tindog.png";
 import portfolioDesign from "../assets/portfoliodesign.png";
 import signUp from "../assets/signUp.png";
+import careerQuest from "../assets/careerQuest.png";
 
 const projectDetails = [
+  {
+    id: 2,
+    title: "CareerQuest",
+    source: "https://github.com/1atul0/jobseeking_Application",
+    image: careerQuest,
+    tag: "jobseeking application, full-stack, Nodejs, MongoDB",
+    teamSize: "1",
+    linkStatus: "live here",
+    link: "https://jobseeking-application-47wk.onrender.com/",
+    description:
+      "I have created this completely full-stack project as my college project. This project is fully completed becuase of code and hosted on render.com. It is a multiple role authentication based website.",
+    features: (
+      <p>
+        <p>1. Created a Beautifull Ui for Users(Student and Teachers).</p>
+        <p>2. Added login and registration features.</p>
+        <p>3. some navigation to check different things like- home page, all jobs, create jobs, applicatant applications and logout. </p>
+        <p>4. All information is saved in database (MongoDB)</p>
+        <p> </p>
+      </p>
+    ),
+    frontend: "React, CSS",
+    backend: "Nodejs, ExpressJs, MongoDB",
+  },
   {
     id: 2,
     title: "Amazon Clone",
