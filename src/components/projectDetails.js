@@ -93,7 +93,7 @@ const projectDetails = [
     image: bank,
     tag: "Spark Foundation, full-stack, Nodejs, MongoDB",
     teamSize: "1",
-    linkStatus: "not hosted",
+    linkStatus: "live here",
     link: "https://basic-banking-system-ga6f.onrender.com/",
     description:
       "I had made this full-stack website during Internship in Sparks Foundation. This is my first full-stack project. In this project, you can add new customer,see all customers and all transactions history. You can send money from one customer to another customer and its directely updated to database. I used mongodb for my database.",
