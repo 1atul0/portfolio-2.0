@@ -13,7 +13,7 @@ import tindog from "../assets/tindog.png";
 import portfolioDesign from "../assets/portfoliodesign.png";
 import signUp from "../assets/signUp.png";
 import careerQuest from "../assets/careerQuest.png";
-
+import to_do_list from "../assets/to-do-list.png";
 const projectDetails = [
   {
     id: 2,
@@ -108,6 +108,29 @@ const projectDetails = [
       </p>
     ),
     frontend: "HTML, CSS, JavaScript, EJS, Bootstrap",
+    backend: "Nodejs, ExpressJs, MongoDB",
+  },
+      {
+    id: 2,
+    title: "To-do-list Website",
+    source: "https://github.com/1atul0/to-do-list-webapp",
+    image: to_do_list,
+    tag: "to-do-list webapp, full-stack, Nodejs, MongoDB",
+    teamSize: "1",
+    linkStatus: "live here",
+    link: "https://to-do-list-webapp-qwz0.onrender.com",
+    description:
+      "I have created this website to measure my daily goals or tasks. I have added some daily life work category like work, today, etc. to measure different works on different category. This is currently for one user . In future , I am going to update this project for separate user and provide authentication to individuals users.This is a fullstakc project create during learning from Udemy.",
+    features: (
+      <p>
+        <p>1. Created a simple Ui for Website visitors.</p>
+        <p>2. Added features of creating custom routes like work, on something else that you want to categorize your daily tasks.</p>
+        <p>3. your tasks get saved in cloud database untill you delete them by completing your tasks.  </p>
+        
+        
+      </p>
+    ),
+    frontend: "Ejs, CSS",
     backend: "Nodejs, ExpressJs, MongoDB",
   },
   {
