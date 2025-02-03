@@ -183,6 +183,8 @@ function ProjectCard(props) {
                     <a
                       href={props.link}
                       className="light:text-black font-semibold hover:text-blue-500 text-red-500"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       {props.linkStatus}
                     </a>
@@ -218,6 +220,7 @@ function ProjectCard(props) {
                   <img
                     className="rounded-lg justify-center mx-auto"
                     src={props.img}
+                    loading="lazy loading"
                     alt=""
                   />
                 </div>
