@@ -33,7 +33,7 @@ function AboutDetailCard() {
           {/* for what do box  */}
           <div className="grid grid-cols-1 md:grid-cols-2 ">
             {/* first box  */}
-            <div className="bg-cyan-200 dark:bg-slate-900  rounded-lg mr-4 my-4 p-3 sm:flex sm:space-x-2 space-y-2 sm:space-y-0 ">
+            <div className="bg-violet-100 dark:bg-slate-900  rounded-lg mr-4 my-4 p-3 sm:flex sm:space-x-2 space-y-2 sm:space-y-0 ">
               {/* for icon  */}
               <div className="">
                 <svg
