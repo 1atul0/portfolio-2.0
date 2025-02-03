@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/atul.jpg";
+import image from "../assets/dp_image1.jpg";
 import Socialicon from "./Socialicon";
 import Address from "./Address";
 
