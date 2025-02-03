@@ -33,7 +33,7 @@ function AboutDetailCard() {
           {/* for what do box  */}
           <div className="grid grid-cols-1 md:grid-cols-2 ">
             {/* first box  */}
-            <div className="bg-pink-50 dark:bg-slate-900  rounded-lg mr-4 my-4 p-3 sm:flex sm:space-x-2 space-y-2 sm:space-y-0 ">
+            <div className="bg-cyan-200 dark:bg-slate-900  rounded-lg mr-4 my-4 p-3 sm:flex sm:space-x-2 space-y-2 sm:space-y-0 ">
               {/* for icon  */}
               <div className="">
                 <svg
@@ -58,7 +58,7 @@ function AboutDetailCard() {
             </div>
 
             {/* second box  */}
-            <div className="bg-gray-50 dark:bg-slate-900 rounded-lg mr-4 my-4 p-3 sm:flex sm:space-x-2 space-y-2 sm:space-y-0 ">
+            <div className="bg-orange-100 dark:bg-slate-900 rounded-lg mr-4 my-4 p-3 sm:flex sm:space-x-2 space-y-2 sm:space-y-0 ">
               {/* for icon  */}
               <div className="">
                 <svg
@@ -87,10 +87,10 @@ function AboutDetailCard() {
             
           </div>
           {/* third box  */}
-          <div className="px-4 md:px-14 py-5 bg-yellow-50 dark:bg-slate-900 my-3 rounded-xl">I can write quality code and which is easily understandable by Users.</div>
-          <div className="px-4 md:px-14 py-5 bg-purple-50 dark:bg-slate-900 my-3 rounded-xl">I does not only develop software but I can deploy on hosting websites.</div>
+          <div className="px-4 md:px-14 py-5 bg-yellow-100 dark:bg-slate-900 my-3 rounded-xl">I can write quality code and which is easily understandable by Users.</div>
+          <div className="px-4 md:px-14 py-5 bg-purple-100 dark:bg-slate-900 my-3 rounded-xl">I does not only develop software but I can deploy on hosting websites.</div>
           
-          <div className="px-4 md:px-14 py-5 bg-purple-50 dark:bg-slate-900 my-3 rounded-xl">I have ability to deliver good software with creative ideas and I also have ability to work on Team- Coordination </div>
+          <div className="px-4 md:px-14 py-5 bg-green-100 dark:bg-slate-900 my-3 rounded-xl">I have ability to deliver good software with creative ideas and I also have ability to work on Team- Coordination </div>
 
           
         </div>

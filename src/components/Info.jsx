@@ -21,7 +21,7 @@ function Info() {
           {/* my name  */}
           <h1 className="box-border  text-2xl font-semibold">Atul Kumar</h1>
           {/* profession name  */}
-          <span className="font-medium mt-3 mb-2 inline-block  py-1 px-5 bg-gray-100 dark:bg-slate-800 text-[#a6a6a6]  rounded-md  ">
+          <span className="font-medium mt-3 mb-2 inline-block  py-1 px-5 bg-gray-100 dark:bg-slate-800 text-[#67bde6]  rounded-md  ">
             Software Developer
           </span>
           {/* space for Socialicon  */}
